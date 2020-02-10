@@ -1,0 +1,18 @@
+.menu {
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    &__list {
+        display: flex;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    &__item{
+        
+        &:not(:last-child){
+            margin-right: 40px;
+        }
+    }
+}
