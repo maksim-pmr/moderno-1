@@ -1,5 +1,10 @@
 .product-slider {
     padding: 123px 0 121px;
+
+    &__title{
+        margin-bottom: 55px;
+    }
+
     .slick-dots {
         display: flex;
         justify-content: center;

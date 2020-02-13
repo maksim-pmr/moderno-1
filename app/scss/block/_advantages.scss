@@ -1,0 +1,68 @@
+.advantages {
+
+    padding: 124px 0 118px;
+    background-color: #263238;
+
+    &__title {
+        color: #ffffff;
+        margin-bottom: 83px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 318px;
+        text-align: center;
+        padding: 0 10px;
+        transition: all 2s;
+        &:hover{
+            .advantages__caption{
+                color: #8bc34a;
+            }
+            .advantages__img{
+                background-color: #8bc34a;
+            }
+            .advantages__sprite-hover{
+                    fill: #fff;
+            }
+        }
+    }
+
+    &__img {
+        width: 113px;
+        height: 113px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-bottom: 33px;
+        transition: all .3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__caption {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 26px;
+        transition: all .3s;
+    }
+
+    &__text {
+        color: #b0bec5;
+        font-size: 15px;
+    }
+}
+.sprite__heart{
+    width: 86px;
+}
+.sprite__gift{
+    width: 71px;
+}
+.sprite__lock{
+    width: 50px;
+}
