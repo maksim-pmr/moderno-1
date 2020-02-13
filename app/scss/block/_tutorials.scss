@@ -1,0 +1,31 @@
+.tutorials {
+    padding: 70px 0 120px;
+
+    &__title {
+        margin-bottom: 57px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 370px;
+        width: 100%;
+        background-color: #f8f8f8;
+    }
+
+    &__img {
+        width: 370px;
+        height: 270px;
+        background: rgba(43, 2, 2, 0.192) center center/cover no-repeat;
+    }
+
+    &__caption {
+        padding: 39px 10px 42px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}

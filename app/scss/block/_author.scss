@@ -1,0 +1,33 @@
+.author {
+    background: center center/cover no-repeat;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__box {
+        max-width: 653px;
+        width: 100%;
+        min-height: 216px;
+        background-color: #8bc34a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__descr {
+        color: #ffffff;
+        font-size: 30px;
+        max-width: 260px;
+        span{
+            font-weight: 700;
+        }
+    }
+
+    &__link {
+        padding: 25px 43px;
+        font-size: 18px;
+        background-color: #ffffff;
+        margin-left: 48px;
+    }
+}
